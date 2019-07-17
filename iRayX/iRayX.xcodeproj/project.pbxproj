@@ -14,6 +14,9 @@
 		8FA8A07F22DEF303008CFDD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8A07D22DEF303008CFDD9 /* LaunchScreen.storyboard */; };
 		8FA8A08A22DEF303008CFDD9 /* iRayXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8A08922DEF303008CFDD9 /* iRayXTests.swift */; };
 		8FA8A09522DEF303008CFDD9 /* iRayXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8A09422DEF303008CFDD9 /* iRayXUITests.swift */; };
+		9AFA542594EFB286F1406118 /* Pods_iRayX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A51968471B8468D03044B17 /* Pods_iRayX.framework */; };
+		C38B44DA376601CC385C5949 /* Pods_iRayXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B673A1E82F7C84BD197AFF9 /* Pods_iRayXUITests.framework */; };
+		F1EF6D052BAD282077F84631 /* Pods_iRayXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D780A24B9F401A0B38AAC1E8 /* Pods_iRayXTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21D96F5301806FA9C41B155C /* Pods-iRayXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRayXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iRayXTests/Pods-iRayXTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C65BA8851DB8BB1A6D9C99A /* Pods-iRayX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRayX.release.xcconfig"; path = "Pods/Target Support Files/Pods-iRayX/Pods-iRayX.release.xcconfig"; sourceTree = "<group>"; };
+		4CAA8D5F780EA2FB318E5BED /* Pods-iRayXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRayXUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iRayXUITests/Pods-iRayXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60BD35DEFD63AD48D7487B6F /* Pods-iRayXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRayXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iRayXTests/Pods-iRayXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A51968471B8468D03044B17 /* Pods_iRayX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRayX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA8A07122DEF302008CFDD9 /* iRayX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRayX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA8A07422DEF302008CFDD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FA8A07622DEF302008CFDD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		8FA8A09022DEF303008CFDD9 /* iRayXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRayXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA8A09422DEF303008CFDD9 /* iRayXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRayXUITests.swift; sourceTree = "<group>"; };
 		8FA8A09622DEF303008CFDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B673A1E82F7C84BD197AFF9 /* Pods_iRayXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRayXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83769185B3364A4AE3B9886 /* Pods-iRayX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRayX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iRayX/Pods-iRayX.debug.xcconfig"; sourceTree = "<group>"; };
+		D780A24B9F401A0B38AAC1E8 /* Pods_iRayXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRayXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46CEFD2049CB9BD2C99DE59 /* Pods-iRayXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRayXUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iRayXUITests/Pods-iRayXUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFA542594EFB286F1406118 /* Pods_iRayX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EF6D052BAD282077F84631 /* Pods_iRayXTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38B44DA376601CC385C5949 /* Pods_iRayXUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A43939B738E50F48D4935DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C83769185B3364A4AE3B9886 /* Pods-iRayX.debug.xcconfig */,
+				2C65BA8851DB8BB1A6D9C99A /* Pods-iRayX.release.xcconfig */,
+				60BD35DEFD63AD48D7487B6F /* Pods-iRayXTests.debug.xcconfig */,
+				21D96F5301806FA9C41B155C /* Pods-iRayXTests.release.xcconfig */,
+				E46CEFD2049CB9BD2C99DE59 /* Pods-iRayXUITests.debug.xcconfig */,
+				4CAA8D5F780EA2FB318E5BED /* Pods-iRayXUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4ED3CB44991FF98C15764DC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A51968471B8468D03044B17 /* Pods_iRayX.framework */,
+				D780A24B9F401A0B38AAC1E8 /* Pods_iRayXTests.framework */,
+				9B673A1E82F7C84BD197AFF9 /* Pods_iRayXUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FA8A06822DEF302008CFDD9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				8FA8A08822DEF303008CFDD9 /* iRayXTests */,
 				8FA8A09322DEF303008CFDD9 /* iRayXUITests */,
 				8FA8A07222DEF302008CFDD9 /* Products */,
+				1A43939B738E50F48D4935DE /* Pods */,
+				4ED3CB44991FF98C15764DC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FA8A09922DEF303008CFDD9 /* Build configuration list for PBXNativeTarget "iRayX" */;
 			buildPhases = (
+				29B9B543A5B1ED9871B203BB /* [CP] Check Pods Manifest.lock */,
 				8FA8A06D22DEF302008CFDD9 /* Sources */,
 				8FA8A06E22DEF302008CFDD9 /* Frameworks */,
 				8FA8A06F22DEF302008CFDD9 /* Resources */,
+				9328AC2E9DA90B512C102A37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FA8A09C22DEF303008CFDD9 /* Build configuration list for PBXNativeTarget "iRayXTests" */;
 			buildPhases = (
+				0B7105292CEB0B0BEC338B92 /* [CP] Check Pods Manifest.lock */,
 				8FA8A08122DEF303008CFDD9 /* Sources */,
 				8FA8A08222DEF303008CFDD9 /* Frameworks */,
 				8FA8A08322DEF303008CFDD9 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FA8A09F22DEF303008CFDD9 /* Build configuration list for PBXNativeTarget "iRayXUITests" */;
 			buildPhases = (
+				16EFFE827311DB6AC2DD9FFB /* [CP] Check Pods Manifest.lock */,
 				8FA8A08C22DEF303008CFDD9 /* Sources */,
 				8FA8A08D22DEF303008CFDD9 /* Frameworks */,
 				8FA8A08E22DEF303008CFDD9 /* Resources */,
@@ -250,6 +294,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B7105292CEB0B0BEC338B92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iRayXTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16EFFE827311DB6AC2DD9FFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iRayXUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29B9B543A5B1ED9871B203BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iRayX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9328AC2E9DA90B512C102A37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iRayX/Pods-iRayX-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iRayX/Pods-iRayX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FA8A06D22DEF302008CFDD9 /* Sources */ = {
@@ -430,6 +553,7 @@
 		};
 		8FA8A09A22DEF303008CFDD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83769185B3364A4AE3B9886 /* Pods-iRayX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +572,7 @@
 		};
 		8FA8A09B22DEF303008CFDD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C65BA8851DB8BB1A6D9C99A /* Pods-iRayX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +591,7 @@
 		};
 		8FA8A09D22DEF303008CFDD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BD35DEFD63AD48D7487B6F /* Pods-iRayXTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +613,7 @@
 		};
 		8FA8A09E22DEF303008CFDD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D96F5301806FA9C41B155C /* Pods-iRayXTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +635,7 @@
 		};
 		8FA8A0A022DEF303008CFDD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46CEFD2049CB9BD2C99DE59 /* Pods-iRayXUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +656,7 @@
 		};
 		8FA8A0A122DEF303008CFDD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAA8D5F780EA2FB318E5BED /* Pods-iRayXUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
